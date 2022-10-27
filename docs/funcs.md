@@ -623,7 +623,10 @@ Based on:https://www.shadertoy.com/view/XtcSWM
 #### Example
 
 ```javascript
-
+voronoi(3,0.1,5).colorama(4).posterize(4,2)
+  .modulateHue( gradient(0.3).kaleid(5) 
+  ,1000)
+.out()
 ```
 
 ### modulateKaleid
